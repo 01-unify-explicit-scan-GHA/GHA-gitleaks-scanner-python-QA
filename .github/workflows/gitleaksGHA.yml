@@ -27,6 +27,6 @@ jobs:
         uses: cloudbees-io-gha/gitleaks-scan-publish@v1
         with:
           cloudbees-pat: ${{ secrets.CloudBees_platform_PAT }}
-          cloudbees-url: https://api.saas-qa.beescloud.com
+          
           
          
