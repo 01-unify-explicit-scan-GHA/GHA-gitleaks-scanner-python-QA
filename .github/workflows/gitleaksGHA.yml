@@ -23,6 +23,9 @@ jobs:
       - name: Push binary
         run: echo "Pushing Binary to ECR..."
 
+      - name: Check out repository code
+        uses: actions/checkout@v3
+
       - name: Scan with Gitleaks
         uses: cloudbees-io-gha/gitleaks-scan-publish@v1
         with:
