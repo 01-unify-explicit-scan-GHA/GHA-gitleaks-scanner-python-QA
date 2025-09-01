@@ -8,4 +8,4 @@
 - Committed `.env` with secrets
 - Token in request URL
 
-Use this to test secret scanning tools or for secure coding training.
+Use this to test secret scanning tools or for secure coding training..
